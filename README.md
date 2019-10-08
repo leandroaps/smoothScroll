@@ -2,7 +2,7 @@
 This snippet can be used to smoothly scroll the element on which it is called into the visible area of the browser window.
 
 ```
-onst smoothScroll = element =>
+const smoothScroll = element =>
   document.querySelector(element).scrollIntoView({
     behavior: 'smooth'
   });
